@@ -11,7 +11,7 @@
 </style>
 <script>
 	function run(clickedObj) {
-		$("#firstline").fadeOut('quick');
+		$("#firstline").fadeOut('slow');
 		$('#intr')[0].pause();
 		$('#poem')[0].play();
 		$('#poem-txt').fadeIn('slow');
