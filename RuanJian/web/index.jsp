@@ -19,14 +19,13 @@
 			width : '10px',
 			opacity : '0.2',
 			left : '1800px',
-			top : '100px'
+			top : '1000px'
 		}, 30000);
 		//$('#waiting')[0].play();
 		$("#moviebox").show('slow');
 		$("#movie")[0].play();
 	}
 	function onVideoEnd(){
-		
 		$("#moviebox").fadeOut('slow');
 		
 		$("#hornor").fadeIn('slow');
@@ -69,7 +68,7 @@
 			-郭鹏 </span><br /> <br /> 西风吹皱东方河，万年地球白发多。 <br /> 流浪星际家何去，满船清梦出银河。
 	</div>
 	<img src="/static/imgs/earth.png"
-		style="position: absolute; left: 10px; bottom: 10px; width: 200px"
+		style="position: absolute; left: 10px; top: 10px; width: 200px"
 		onclick="run(this);return false" 
 		title="点击后，开始流浪 ！"
 		/>
